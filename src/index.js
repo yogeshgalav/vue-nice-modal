@@ -1,4 +1,4 @@
-import VueNiceModal from "./VueNiceModal.js";
+import VueNiceModal from "./VueNiceModal.vue";
 
 function install(Vue) {
   if (install.installed) return;
