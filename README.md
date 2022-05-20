@@ -1,4 +1,4 @@
 # Vue Nice Modal
 
 ## Image
-<img src="Auto.png" width="50%"/>
+<img src="modal-body.png" width="50%"/>
