@@ -1,13 +1,16 @@
+
 <template>
   <div id="app">
     
     <VueNiceModal
      name="'hello'"
      heading="Modal Header" 
-     @submit="submitBut"
+     @submit="submitBut"  
+     @cancel="submitBut"
+     @close="submitBut"
       >
        <template slot="modalBody">
-         <div>
+         <div id="content">
          <label>Content <br></label>
          </div>
             <div>
@@ -40,6 +43,9 @@ methods:{
 </script>
 
 <style>
+#content{
+  margin-bottom: 10px;
+}
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
